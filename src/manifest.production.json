@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "chrome-ext",
+    "description": "有好的天气提示",
+    "version": "0.0.1",
+    "options_page": "options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}

@@ -5,25 +5,13 @@ vue3 谷歌插件开发模板 git clone 即可使用
 
 
 
-## Project setup
+## build 并 监控修改 重新打包
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+pnpm run build-watch
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 将打包生成dist文件上传到google插件中心
+![image](https://user-images.githubusercontent.com/38801556/183600682-723b60dc-be51-4fc9-875f-2e27c7022fc7.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 实时修改实时刷新
+![image](https://user-images.githubusercontent.com/38801556/183600763-0642d854-154b-4d80-864c-72483acd7f7a.png)
